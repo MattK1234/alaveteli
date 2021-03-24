@@ -108,6 +108,16 @@ body.admin {
     }
   }
 
+  i.icon-warning-bg {
+    background-color: rgba(#c09853, 0.5);
+    border-radius: 20px;
+  }
+
+  i.icon-error-bg {
+    background-color: rgba(#b94a48, 0.6);
+    border-radius: 20px;
+  }
+
   body.admin blockquote p {
     font-size: 13px;
     display: inline;
