@@ -50,6 +50,7 @@ class RefusalAdvice
 
     action = wizard_answer.params[:id]
     suggestions = wizard_answer.params[:actions][action.to_sym]
+    return unless suggestions
 
     suggestions.inject([]) do |memo, (k, v)|
       memo << "refusal_advice:#{k}" if v
